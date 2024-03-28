@@ -1,0 +1,88 @@
+*{
+	background-color: lightslategrey;
+
+}
+
+h1{
+	color: blue;
+}
+
+p{
+	background-color: black;
+	color: white;
+}
+
+#title{
+	background-color: seagreen;
+	color: lightyellow;
+}
+
+.info{
+	background-color: aliceblue;
+	color: seagreen;
+}
+
+[href]{
+	background-color: azure;
+}
+
+[href="https://www.google.cn"]{
+	background-color: cornflowerblue;
+}
+
+[href^=ve]{
+	background-color: darkcyan;
+}
+
+.text-1, .text-2, .text-3{
+
+	background-color: chocolate;
+}
+
+div h2{
+	color: blue;
+}
+
+div .lorem{
+	color: saddlebrown;
+}
+
+#prueba.prue{
+	background-color: yellow;
+}
+
+span{
+	background-color: fuchsia !important;
+}
+
+span#prueba.prue{
+	background-color: orange;
+}
+
+#prueba.{
+	background-color: blue;
+}
+
+/* .prue{
+	background-color: yellow;
+} */
+
+span#prueba{
+	background-color: green;
+}
+
+span{
+	background-color: red;
+}
+
+/* rangos de especificidad
+	el elemento solo tiene especificidad de 001
+	la clase tiene especificidad de         010
+	el id tiene la especificidad de         100
+
+	si yo coloco elemento.laclase se suma las especificidades quedaria en este case
+	011*/
+
+.todo{
+	font-family: cursive;
+}

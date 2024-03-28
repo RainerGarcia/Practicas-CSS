@@ -1,0 +1,63 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: gray;
+}
+
+.fondo{
+	margin-left: 10px;
+	position: absolute;
+	background-image: url("assets/images/klipartz.com.png");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center top;
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 300vh;
+	width: 200vw;
+	z-index: -1;
+
+}
+
+p{
+	position: relative;
+	width: 1200px;
+	height: 200px;
+	border: 1px solid;
+}
+
+.par{
+	background-image: linear-gradient(to right top ,yellow,red);
+	font-size: 20px;
+	font-family: cursive;
+	font-weight: 900;
+	letter-spacing: 3px;
+
+}
+
+.par2{
+	background-image: linear-gradient(40deg,blue, yellow,violet);
+	cursor: pointer;
+	text-decoration: underline fuchsia;
+	font-family: 'Dancing Script', cursive;
+
+
+
+}
+
+.par3{
+	background-image: radial-gradient(at 20px, yellow, blue,black 80%);
+	color: white;
+	line-height: 30px;
+	text-transform: uppercase;
+
+}
+
+.par3:hover{
+	text-decoration: underline;
+}

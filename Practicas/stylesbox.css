@@ -1,0 +1,81 @@
+.fondo{
+	background-image:  url('/assets/images/1600w-c3PYha1JI9M.webp');
+	background-size: 100%;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+h1{
+	border-bottom: 2px solid black;
+	width: 600px;
+}
+
+.mayor{
+	position: relative;
+
+}
+
+	
+.div_box{
+	background-color: cornflowerblue;
+
+	width: 500px;
+	height: 400px;
+	padding: 10px;
+	border: 10px solid blue;
+	margin: 10px 20px 10px 20px;
+	font-family: system-ui;
+	border-radius: 40px;
+	box-shadow: 10px 20px 50px 10px green, 60px 10px 30px brown;
+	float: left;
+}
+
+div > p{
+	background-color: indianred;
+	padding: 10px;
+	border: 10px solid goldenrod;
+	font-size: 14px;
+	display: inline-block;
+	margin: 10px;
+/* 	border-top-left-radius: 30px 50px;
+	border-bottom-right-radius: 30px 50px; 
+
+	tambien puedes dibujar con elipses de la siguiente forma
+	border-radus: 1px 2px 3px 4px / 10px 20px 30px 40px 
+	sabiendo que 1 es superior izquierda
+				 2 superior derecha
+				 3 inferior izquierda
+				 4 inferior derecha
+	con esa leyenda podemos notas que si ponemos border-radius:  1px 2px 3px 4px
+	tenemos puedes radios de circunferencia en cada esquina respectiva en ese mismo
+	orden en el que esta escrito
+				*/
+	border-radius: 30px / 50px;
+
+}
+
+.colors{
+	border: 3px solid black;
+	width: 500px;
+	height: 400px;
+	border-radius: 50px;
+	margin-left: 80px;
+	margin-top: 10px;
+	float: left;
+	padding: 20px;
+}
+
+.colores{
+	width: 300px;
+	height: 300px;
+	border: solid 3px;
+	margin-top: 530px;
+	margin-left: 400px;
+	background-color: #5A11FF;
+/* RRGGBB	Red Green Blue
+	valores de 0-9 y de A-F colores hexadecimales  */
+
+}

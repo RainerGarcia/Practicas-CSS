@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Prueba de CSS primera clase</title>
+	<link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+	<h1>Prueba</h1>
+	<p>este es un parrafo de prueba</p>
+
+	<h2 id="title">Esto es un título</h2>
+	<p class="info">este es el párrafo del título dado, por favor jugar con css con este párrafo blablablablalbla</p>
+
+	<h3>enlaces</h3>
+	<a href="https://www.google.com" target="_blank">ejemplo 1</a>
+	<a href="https://www.google.cn" target="_blank">ejemplo 2</a>
+	<a href="https://www.google.co.ve" target="_blank">ejemplo 3</a>
+
+	<hr>
+
+	<h2>este es el mismo titulo para ir probando</h2>
+	<div>
+		<h2>ESTE ES UN TEXTO PARA UN TITULO</h2>
+		<h3 class="lorem">mira comosse ve de bonito mi lorem jeje</h3>
+	</div>
+
+	<p class="text-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	<p class="text-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	<p class="text-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	<!-- elementos en bloque
+	son aquellos como el div que ocupan tod el ancho de la pagina y parte vertical de una zona de la pagina se pueden cambiar alturas, 
+	elementos de linea ocupan solo un espacio del texto o contenido y estos no se pueden cambiar las alturas 
+
+	dato: con display puedes colocar en un tipo linea inline-block que es una linea con propiedades de bloque
+
+	conceptos:
+	Cascada: CSS es de tipo cascada, quiere decir que los ultimos estilos declarados al final tendrán predominancia con respecto a los anteriores que tenga arriba, si por ejemplo colocamos estilos a un h1 y luego volvemos a declarar mas abajo otro estilo en h1 entonces en la página se visualizará el ultimo estilo declarado en h1
+
+	Especifidad: si el elemento tiene un id o un tipo class y se le especifica el estilo en el archivo css la página web priorizará la especificación por encima de la cascada, ya sea que este debajo o arriba igual tendrá prioridad si se le declara algo que lo señale, por ejemplo un atributo o como normalmente se usa una clase
+	se recomienda siempre usar clases para la especificidad
+
+	herencia: se refiere a que si especificas algunos estilos a un div por ejemplo y dentro del mismo div hay otros elementos, todos estos elementos se veran afectados o heredaran el estilo colocado por el div, los hijos heredan los estilos de los padres.
+	
+	a un estilo si le colocas inherit el elemento hijo heredará el estilo especifico del padre
+	-->
+
+	<div class="todo">
+		<span id="prueba" class="prue">este es un texto de prueba</span>
+	</div>
+</body>
+</html>
